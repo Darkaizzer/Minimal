@@ -1,0 +1,356 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+header > div {
+  height: 17vh;
+}
+header > div,
+header > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header span {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #333333;
+  margin-left: 20px;
+}
+header a {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #404040;
+  padding: 15px;
+  text-decoration: none;
+}
+.top {
+  background-image: url(./img/minimal\ bg.svg);
+  height: 400px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  align-items: center;
+}
+.top h1 {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 55px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 45%;
+}
+.top span {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.81);
+}
+.bottom {
+  background-color: #fefec9;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bottom p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #47474f;
+  margin-bottom: 20px;
+}
+.bottom a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #47474f;
+  text-decoration: none;
+  border: 1px solid #47474f;
+  padding: 10px 15px;
+  margin-bottom: 40px;
+}
+.bottom img {
+  position: relative;
+  top: -65px;
+}
+.thrive {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 490px;
+}
+
+.thrive > div {
+  display: flex;
+  justify-content: space-between;
+}
+.thrive > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 32%;
+}
+.thrive > div > div > div {
+  width: 100%;
+  height: 220px;
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thrive h1 {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.thrive h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  margin: 20px 0;
+}
+
+.thrive p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #333333;
+}
+projects-bg {
+  background-color: #f5f5f5;
+}
+.projects-bg > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 1335px;
+}
+.projects-bg > div > h1 {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cards > div {
+  width: 300px;
+  height: 385px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.cards > div span {
+  margin-bottom: 17px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+}
+.cards > div h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 65vh;
+}
+.team h1 {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+.team-cards {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.team-cards > div {
+  text-align: center;
+}
+.team-cards h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+.team-cards span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+}
+.comments-block {
+  background-color: #f5f5f5;
+}
+.comments-block > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 400px;
+}
+.comments-block > div > div {
+  display: flex;
+}
+.comments-block > div > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.comments-block > div > div p:first-child {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 33px;
+  text-align: center;
+  color: #333333;
+}
+.comments-block > div > div p:last-child {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ababab;
+}
+.intouch-bg {
+  background-image: url(./img/intouch-bg.svg);
+  height: 500px;
+}
+.intouch-bg > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 80%;
+  padding-top: 90px;
+}
+
+.contacts {
+  display: flex;
+}
+
+.contacts > div {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contacts h4{
+  margin: 20px 0;
+}
+.contacts >div >img{
+  height: 70px;
+  width: 45px;
+}
+.touch-links{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.footer{
+  background-color: #000000;
+  height: 600px;
+}
+.footer > div{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+.footer form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 80%;
+    justify-content: space-evenly;
+}
+.footer form input{
+  height: 57px;
+  width: 500px;
+  background: rgba(255,255,255,0.18);
+  border-radius: 0px;
+}
+.footer textarea{
+  width: 500px;
+  height: 127px;
+  background-color: rgba(255,255,255,0.18);;
+  border-radius: 0px;
+}
+.footer a{
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  color: #8BCAC3;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid#7EC4BD;
+}
+.footer p{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(255,255,255,0.4);
+}
+.footer textarea{
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+color: #FFFFFF;
+}
+
